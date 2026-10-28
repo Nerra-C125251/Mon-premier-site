@@ -1,3 +1,9 @@
+@font-face {
+    font-family: MaPolicePerso; /* Le nom que vous choisissez */
+    src: url(Image/TrajanPro-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 .bleu {
     color: #005A6C;
 }
@@ -29,23 +35,21 @@
 .gras {
     font-weight: bold;
 }
-
-h1 {
-    text-align: center;
-}
-
 .center {
     text-align: center;
 }
-
-.bg-gris {
-    background-color: #4f4f4f;
-}
-
-.bg-image {
-    background-size: cover;
+.banner{
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;     /* Centre verticalement */
+    min-height: 100px;       /* Ajustez la hauteur selon vos besoins */
+    background-color: #060219 ; /* Exemple de fond sombre */
     background-position: center;
-    height: 300px;
-    margin: 0;
-    background-image: url(/Image/Epic-the-musical-background.jpg);
+    background-size: cover;
+    color: #ffffff;
+}
+.alignement{
+    font-family: 'MaPolicePerso', sans-serif; /* Police alternative en secours */
+    font-size: 3rem;                          /* Ajustez la taille du texte */
+    letter-spacing: 2px;
 }
